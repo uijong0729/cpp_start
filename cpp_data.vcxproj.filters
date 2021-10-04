@@ -24,12 +24,21 @@
     <ClCompile Include="Cout.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Cin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputExample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="PrintMenu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputExam.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

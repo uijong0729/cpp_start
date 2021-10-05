@@ -151,10 +151,14 @@
     <ClCompile Include="Cin.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="InputExample.cpp" />
+    <ClCompile Include="InputExample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Pointer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h" />
+    <ClInclude Include="practice.h" />
     <ClInclude Include="PrintMenu.h" />
     <ClInclude Include="InputExam.h" />
   </ItemGroup>

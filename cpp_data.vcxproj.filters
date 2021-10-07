@@ -16,31 +16,37 @@
     <Filter Include="소스 파일\Practice">
       <UniqueIdentifier>{4e061f88-499e-4d3c-897f-a353ff0ed465}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Example">
+    <Filter Include="소스 파일\IO">
+      <UniqueIdentifier>{c1096569-1269-48f0-80c2-7f58cc6c4e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Reference">
       <UniqueIdentifier>{5d548968-1b39-45a3-a0fa-593b2318ca20}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cout.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cin.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Pointer.cpp">
       <Filter>소스 파일\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="InputExample.cpp">
-      <Filter>소스 파일\Example</Filter>
-    </ClCompile>
-    <ClCompile Include="OutputExample.cpp">
-      <Filter>소스 파일\Example</Filter>
-    </ClCompile>
-    <ClCompile Include="Helloworld.cpp">
-      <Filter>소스 파일\Example</Filter>
-    </ClCompile>
     <ClCompile Include="Template.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cin.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Cout.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>소스 파일\Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="Helloworld.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="InputExample.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputExample.cpp">
+      <Filter>소스 파일\IO</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="practice.h">
       <Filter>소스 파일\Practice</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
+      <Filter>소스 파일\Reference</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

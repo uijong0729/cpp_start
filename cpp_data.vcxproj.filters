@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Reference">
       <UniqueIdentifier>{5d548968-1b39-45a3-a0fa-593b2318ca20}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\string">
+      <UniqueIdentifier>{c1c64f1f-bc85-471f-b0c9-d1c1e9ecc2ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pointer.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="OutputExample.cpp">
       <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>소스 파일\string</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

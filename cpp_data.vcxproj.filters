@@ -54,6 +54,9 @@
     <ClCompile Include="String.cpp">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="StringExample.cpp">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">

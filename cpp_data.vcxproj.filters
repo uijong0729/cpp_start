@@ -57,6 +57,12 @@
     <ClCompile Include="StringExample.cpp">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileExample.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -74,5 +80,16 @@
     <ClInclude Include="Swap.h">
       <Filter>소스 파일\Reference</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="hello.txt">
+      <Filter>소스 파일\IO</Filter>
+    </Text>
+    <Text Include="balance.txt">
+      <Filter>소스 파일\IO</Filter>
+    </Text>
+    <Text Include="complex_text.txt">
+      <Filter>소스 파일\IO</Filter>
+    </Text>
   </ItemGroup>
 </Project>

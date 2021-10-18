@@ -63,6 +63,9 @@
     <ClCompile Include="FileExample.cpp">
       <Filter>소스 파일\IO</Filter>
     </ClCompile>
+    <ClCompile Include="CreateCppMain.cpp">
+      <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">

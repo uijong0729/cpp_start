@@ -3,38 +3,23 @@
 
 using namespace std;
 
-void convChar(int* i, char*  result) {
-	cout << "input : " << *i << endl;
-	char tmp = *i + '0';
-	result = &tmp;
-
-	cout << "output" << *result << endl;
-}
-
 // 메인함수있는 cpp파일 만들기
 int main() {
-	const size_t FULL_SIZE = 12;
+	const size_t NAME_SIZE = 14;
 	const size_t PREFIX_SIZE = 7;
 
 	cout << "----create cpp template----" << endl;
-	char fileName[FULL_SIZE] = "Template";
-	char path[3] = "./";
-	
-	
-	//ifstream fin;
-	//for (int i = 0; fin.good(); i++) {
-	//	char c[3] = i + '0';
+	char fileName[NAME_SIZE] = "Template.cpp";
+	ofstream fin;
+	fin.open(fileName);
 
-	//	strcat_s(fileName, FULL_SIZE, i+'0');
-	//	fileName[PREFIX_SIZE + 1] = i;
-	//	cout << "file name : " << fileName;
-	//	fin.open(fileName);
-	//}
-	//fin.clear();
-	int a = 5;
-	char b = 'a';
-	convChar(&a, &b);
+	fin << "#include <iostream>" << endl << endl
+		<< "using namespace std;" << endl << endl
+		<< "int main() {" << endl << endl
+		<< "\treturn 0;" << endl
+		<< "}";
 
-	cout << b;
+	fin.close();
+
 	return 0;
 }

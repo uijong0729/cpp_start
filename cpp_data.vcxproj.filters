@@ -30,9 +30,6 @@
     <ClCompile Include="Pointer.cpp">
       <Filter>소스 파일\Practice</Filter>
     </ClCompile>
-    <ClCompile Include="Template.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Cin.cpp">
       <Filter>소스 파일\IO</Filter>
     </ClCompile>
@@ -65,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="CreateCppMain.cpp">
       <Filter>소스 파일\Practice</Filter>
+    </ClCompile>
+    <ClCompile Include="CStyleString.cpp">
+      <Filter>소스 파일\string</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

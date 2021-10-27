@@ -12,7 +12,7 @@ int main() {
 	size_t length = strlen(str);
 	cout << "±æÀÌ : " << length;
 
-
+	// const int 
 
 	return 0;
 }

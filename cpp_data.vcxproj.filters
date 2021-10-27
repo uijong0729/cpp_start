@@ -66,6 +66,12 @@
     <ClCompile Include="CStyleString.cpp">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="WriteFile.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="File_IO_Example.cpp">
+      <Filter>소스 파일\IO</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="Swap.h">
       <Filter>소스 파일\Reference</Filter>
+    </ClInclude>
+    <ClInclude Include="File_IO_Example.h">
+      <Filter>소스 파일\IO</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

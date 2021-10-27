@@ -25,6 +25,8 @@ int main() {
 				break;
 			}
 		}
+		// 아래의 순서는 바뀌면 안된다. 
+		// failbit인 경우 읽기가 무시되므로 clear()로 일단 goodbit로 돌려놔야하기 때문
 		fin.clear();
 		fin >> trash;
 	}

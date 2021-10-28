@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\string">
       <UniqueIdentifier>{c1c64f1f-bc85-471f-b0c9-d1c1e9ecc2ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP">
+      <UniqueIdentifier>{6aec3497-ba1f-4bcf-83bb-219426b94d94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pointer.cpp">
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="File_IO_Example.cpp">
       <Filter>소스 파일\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>소스 파일\OOP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

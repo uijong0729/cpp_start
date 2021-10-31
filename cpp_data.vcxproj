@@ -172,7 +172,7 @@
     <ClCompile Include="Reference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="StringExample.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -182,6 +182,7 @@
     <ClCompile Include="CStyleString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Vector2.cpp" />
     <ClCompile Include="WriteFile.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -195,6 +196,7 @@
     <ClInclude Include="PrintMenu.h" />
     <ClInclude Include="InputExam.h" />
     <ClInclude Include="Swap.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="balance.txt" />

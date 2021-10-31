@@ -75,7 +75,10 @@
     <ClCompile Include="File_IO_Example.cpp">
       <Filter>소스 파일\IO</Filter>
     </ClCompile>
-    <ClCompile Include="Runner.cpp">
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
   </ItemGroup>
@@ -97,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="File_IO_Example.h">
       <Filter>소스 파일\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>소스 파일\OOP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

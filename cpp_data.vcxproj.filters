@@ -81,6 +81,9 @@
     <ClCompile Include="Vector2.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
+    <ClCompile Include="Vector1.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -102,6 +105,9 @@
       <Filter>소스 파일\IO</Filter>
     </ClInclude>
     <ClInclude Include="Vector2.h">
+      <Filter>소스 파일\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector1.h">
       <Filter>소스 파일\OOP</Filter>
     </ClInclude>
   </ItemGroup>

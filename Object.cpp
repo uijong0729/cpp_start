@@ -79,10 +79,23 @@ void PrintVectors(const Vector& a, const Vector& b)
 	delete result;
 }
 
+class Vector3
+{
+private:
+	int mX;
+	int mY;
+public:
+	Vector3(int x, int y): mX(x), mY(y)
+	{
+		cout << "create Vector3";
+	}
+};
+
 int main() {
 	// 개체 생성
 	// 1. 스택 메모리에 만들기 (빠름)
-	Vector a;
+	Vector a;			// 기본 생성자
+	Vector3 e(10, 3);	// 생성자 있음
 
 	// 2. 힙 메모리에 만들기 (느림)
 	Vector* b = new Vector();

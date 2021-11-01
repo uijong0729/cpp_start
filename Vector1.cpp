@@ -16,3 +16,9 @@ Vector1::Vector1(int x, int y)
 {
 	cout << mX << mY;
 }
+
+// 소멸자 구현부
+Vector1::~Vector1()
+{
+
+}

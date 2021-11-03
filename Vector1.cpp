@@ -22,3 +22,32 @@ Vector1::~Vector1()
 {
 
 }
+
+// Const 멤버함수 : 멤버 변수가 변하는 것을 방지
+int Vector1::GetX() const
+{
+	return mX;
+}
+
+// Const 멤버함수 : 멤버 변수가 변하는 것을 방지
+int Vector1::GetY() const
+{
+	return mY;
+}
+
+void Vector1::SetX(int x)
+{
+	mX = x;
+}
+
+void Vector1::SetY(int y)
+{
+	mY = y;
+}
+
+
+void Vector1::Add(const Vector1& other) 
+{
+	mX += other.mX;
+	mY += other.mY;
+}

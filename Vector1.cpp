@@ -23,6 +23,20 @@ Vector1::~Vector1()
 
 }
 
+// 복사 생성자
+// : 같은 클래스에 속한 다른 개체를 이용하여 새로운 개체를 초기화
+// : 암시적 복사생성자 (코드에 복사 생성자가 없는 경우 컴파일러가 암시적 복사 생성자를 자동 생성)
+Vector1::Vector1(const Vector1& other)
+	// other는 다른개체이지만, 같은 class에 있기 때문에 private에 접근할 수 있다.
+	:mX(other.mX)
+	,mY(other.mY)
+{
+	// Vector a;	// 매개변수 없는 생성자 호출
+	// Vector b(a); // 복사 생성자 호출
+}
+
+// --------------------------------------------------------------------
+
 // Const 멤버함수 : 멤버 변수가 변하는 것을 방지
 int Vector1::GetX() const
 {
@@ -51,3 +65,4 @@ void Vector1::Add(const Vector1& other)
 	mX += other.mX;
 	mY += other.mY;
 }
+

@@ -22,6 +22,9 @@ public:
 	int GetY() const;	// const 메서드. 해당 개체 안의 어떠한 것도 바꾸지 않음
 	void Add(const Vector1& other);
 
+	// 복사 생성자 : 나랑 똑같은 클래스를 인수로 받는 생성자
+	Vector1(const Vector1& other);
+
 private:
 	int mX;
 	int mY;

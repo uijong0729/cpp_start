@@ -25,6 +25,18 @@ public:
 	// 복사 생성자 : 나랑 똑같은 클래스를 인수로 받는 생성자
 	Vector1(const Vector1& other);
 
+	bool IsEqual(const Vector1& v) const;
+
+	// 함수 오버로딩 1 (값 복사 반환)
+	//	- 요소별 곱셈
+	Vector1 Multiply(const Vector1& v) const;	// const 메서드. 해당 개체 안의 어떠한 것도 바꾸지 않음
+	//	- 요소에 곱셈
+	Vector1 Multiply(int multiplier) const;		// const 메서드. 해당 개체 안의 어떠한 것도 바꾸지 않음
+
+	// 함수 오버로딩 2
+	void Scale(const Vector1& v);	// const 키워드가 없으므로 나 자신을 확대/축소 하는 메소드임을 알 수 있음
+	void Scale(int multiplier);		// const 키워드가 없으므로 나 자신을 확대/축소 하는 메소드임을 알 수 있음
+
 private:
 	int mX;
 	int mY;

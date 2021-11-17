@@ -35,6 +35,35 @@ Vector1::Vector1(const Vector1& other)
 	// Vector b(a); // 복사 생성자 호출
 }
 
+bool Vector1::IsEqual(const Vector1& v) const
+{
+	return mX == v.GetX() && mY == v.GetY();
+}
+
+Vector1 Vector1::Multiply(const Vector1& v) const
+{
+	Vector1 result(mX * v.GetX(), mY * v.GetY());
+	return result;
+}
+
+Vector1 Vector1::Multiply(int multiplier) const
+{
+	Vector1 result(mX * multiplier, mY * multiplier);
+	return result;
+}
+
+void Vector1::Scale(const Vector1& v)
+{
+	mX *= v.mX;
+	mY *= v.mY;
+}
+
+void Vector1::Scale(int multiplier)
+{
+	mX *= multiplier;
+	mY *= multiplier;
+}
+
 // --------------------------------------------------------------------
 
 // Const 멤버함수 : 멤버 변수가 변하는 것을 방지

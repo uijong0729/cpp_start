@@ -28,6 +28,12 @@
     <Filter Include="소스 파일\OOP">
       <UniqueIdentifier>{6aec3497-ba1f-4bcf-83bb-219426b94d94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Function">
+      <UniqueIdentifier>{2c6fa47d-4cf6-46e0-a79e-43bf515216ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Operator">
+      <UniqueIdentifier>{8cd047de-8deb-40cc-a813-5a3ac85850d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pointer.cpp">
@@ -54,9 +60,6 @@
     <ClCompile Include="String.cpp">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
-    <ClCompile Include="StringExample.cpp">
-      <Filter>소스 파일\string</Filter>
-    </ClCompile>
     <ClCompile Include="File.cpp">
       <Filter>소스 파일\IO</Filter>
     </ClCompile>
@@ -78,9 +81,6 @@
     <ClCompile Include="Object.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
-    <ClCompile Include="Vector2.cpp">
-      <Filter>소스 파일\OOP</Filter>
-    </ClCompile>
     <ClCompile Include="Vector1.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
@@ -92,6 +92,18 @@
     </ClCompile>
     <ClCompile Include="DeepCopyExam.cpp">
       <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodOverload.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="StringExample.cpp">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>소스 파일\Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4_Main.cpp">
+      <Filter>소스 파일\Operator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -113,14 +125,17 @@
     <ClInclude Include="File_IO_Example.h">
       <Filter>소스 파일\IO</Filter>
     </ClInclude>
-    <ClInclude Include="Vector2.h">
-      <Filter>소스 파일\OOP</Filter>
-    </ClInclude>
     <ClInclude Include="Vector1.h">
       <Filter>소스 파일\OOP</Filter>
     </ClInclude>
     <ClInclude Include="MyString.h">
       <Filter>소스 파일\OOP</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodOverload.h">
+      <Filter>소스 파일\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

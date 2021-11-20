@@ -116,25 +116,25 @@
     <ClInclude Include="InputExam.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="practice.h">
-      <Filter>소스 파일\Practice</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Swap.h">
-      <Filter>소스 파일\Reference</Filter>
-    </ClInclude>
-    <ClInclude Include="File_IO_Example.h">
-      <Filter>소스 파일\IO</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector1.h">
-      <Filter>소스 파일\OOP</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="MyString.h">
-      <Filter>소스 파일\OOP</Filter>
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector1.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="MethodOverload.h">
-      <Filter>소스 파일\Function</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Vector4.h">
+    <ClInclude Include="File_IO_Example.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

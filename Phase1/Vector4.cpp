@@ -11,6 +11,12 @@ Vector4 Vector4::operator+(const Vector4& rhs) const
     return sum;
 }
 
+// 주의 : Vector4에서 온 연산자 아니다.
+std::ostream& operator<<(std::ostream& os, const Vector4& rhs)
+{
+    return os << rhs.mX << ", " << rhs.mY;
+}
+
 Vector4::Vector4(int x, int y)
     :mX(x)
     , mY(y)
@@ -20,9 +26,4 @@ Vector4::Vector4(int x, int y)
 Vector4::Vector4()
     :mX(0), mY(0)
 {
-}
-
-void Vector4::Print()
-{
-    std::cout << mX << mY;
 }

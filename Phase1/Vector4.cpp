@@ -17,6 +17,13 @@ std::ostream& operator<<(std::ostream& os, const Vector4& rhs)
     return os << rhs.mX << ", " << rhs.mY;
 }
 
+// 주의 : Vector4에서 온 연산자 아니다.
+Vector4 operator*(int multiplier, const Vector4 rhs)
+{
+    Vector4 result(rhs.mX * multiplier, rhs.mY * multiplier);
+    return result;
+}
+
 Vector4::Vector4(int x, int y)
     :mX(x)
     , mY(y)
@@ -26,4 +33,9 @@ Vector4::Vector4(int x, int y)
 Vector4::Vector4()
     :mX(0), mY(0)
 {
+}
+
+bool Vector4::operator==(const Vector4& rhs) const
+{
+    return mX == rhs.mX && mY == rhs.mY;
 }

@@ -12,5 +12,20 @@ int main()
 	Vector4 sum2 = v1.operator+(v2);
 	
 	// << 연산자 오버로딩
-	std::cout << v1 << std::endl << v2;
+	std::cout << v1 << std::endl << v2 << std::endl;
+
+
+	// == 연산자 오버로딩
+	if (v1 == v2) 
+	{
+		std::cout << (v1 == v2) << std::endl;
+	}
+	else 
+	{
+		std::cout << "false"  << std::endl;
+	}
+	
+
+	// * 연산자 오버로딩
+	std::cout << (3 * v1) << std::endl;
 }

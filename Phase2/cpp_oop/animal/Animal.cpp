@@ -1,8 +1,16 @@
 #include "Animal.h"
 #include <iostream>
 
-Animal::Animal(int age) 
-	:mAge(age)
+namespace samples
 {
-	std::cout << mAge;
+	Animal::Animal(int age) 
+		:mAge(age)
+	{
+		std::cout << mAge;
+	}
+
+	void Animal::Move() const
+	{
+		std::cout << "move" << std::endl;
+	}
 }

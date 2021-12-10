@@ -1,9 +1,13 @@
 #pragma once
 
-class Animal
+namespace samples
 {
-public:
-	Animal(int age);
-private:
-	int mAge;
-};
+	class Animal
+	{
+	public:
+		Animal(int age);
+		void Move() const;
+	private:
+		int mAge;
+	};
+}

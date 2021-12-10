@@ -2,10 +2,14 @@
 #include "Animal.h"
 #include <string>
 
-class Cat : public Animal
+namespace samples
 {
-public:
-	Cat(int age, std::string name);
-private:
-	std::string mName;
-};
+	// Animal »ó¼Ó
+	class Cat : public Animal
+	{
+	public:
+		Cat(int age, std::string name);
+	private:
+		std::string mName;
+	};
+}
